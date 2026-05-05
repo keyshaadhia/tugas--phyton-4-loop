@@ -1,0 +1,169 @@
+tugas4loop.ipynb
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPtHUJc2AJwEcStx2zMg7iY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/gist/keyshaadhia/271786ed51120ab10eed4b2b3683cef8/tugas4loop.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rsyXDzaPwxeM",
+        "outputId": "dc0179cf-ddcd-4033-96fe-ec08f50efd96"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the count is:  0\n",
+            "good bye!\n",
+            "the count is:  1\n",
+            "good bye!\n",
+            "the count is:  2\n",
+            "good bye!\n",
+            "the count is:  3\n",
+            "good bye!\n",
+            "the count is:  4\n",
+            "good bye!\n",
+            "the count is:  5\n",
+            "good bye!\n",
+            "the count is:  6\n",
+            "good bye!\n",
+            "the count is:  7\n",
+            "good bye!\n",
+            "the count is:  8\n",
+            "good bye!\n"
+          ]
+        }
+      ],
+      "source": [
+        "count = 0\n",
+        "\n",
+        "while (count < 9):\n",
+        "  print (\"the count is: \", count)\n",
+        "  count = count + 1\n",
+        "  print (\"good bye!\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "angka = [1, 2, 3, 4, 5]\n",
+        "for x in angka:\n",
+        "    print(x)\n",
+        "buah = [\"nanas\", \"apel\", \"jeruk\"]\n",
+        "for makanan in buah:\n",
+        "    print(\"saya suka makan\", makanan)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ahsei2GoyhWB",
+        "outputId": "35f08a4c-1725-495f-b7d3-bccb693b7ca3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "saya suka makan nanas\n",
+            "saya suka makan apel\n",
+            "saya suka makan jeruk\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i = 2\n",
+        "while i < 100:\n",
+        "    j = 2\n",
+        "    while j <= (i / j):\n",
+        "        if not (i % j):\n",
+        "            break\n",
+        "        j = j + 1\n",
+        "    if j > (i / j):\n",
+        "        print(i, \"is prime\")\n",
+        "    i = i + 1\n",
+        "print(\"good bye!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4NiCEZg40ssc",
+        "outputId": "fba608e0-02ea-4a86-9526-2148de54be03"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2 is prime\n",
+            "3 is prime\n",
+            "5 is prime\n",
+            "7 is prime\n",
+            "11 is prime\n",
+            "13 is prime\n",
+            "17 is prime\n",
+            "19 is prime\n",
+            "23 is prime\n",
+            "29 is prime\n",
+            "31 is prime\n",
+            "37 is prime\n",
+            "41 is prime\n",
+            "43 is prime\n",
+            "47 is prime\n",
+            "53 is prime\n",
+            "59 is prime\n",
+            "61 is prime\n",
+            "67 is prime\n",
+            "71 is prime\n",
+            "73 is prime\n",
+            "79 is prime\n",
+            "83 is prime\n",
+            "89 is prime\n",
+            "97 is prime\n",
+            "good bye!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
